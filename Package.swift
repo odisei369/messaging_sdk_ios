@@ -12,6 +12,8 @@ let package = Package(
             targets: ["MessagingSDK"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/odisei369/messagingapi_sdk_ios", from: "3.8.0"),
+        .package(url: "https://github.com/odisei369/commonui_sdk_ios", from: "6.0.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
